@@ -167,11 +167,11 @@ font-weight: lighter;
 #login-password
 {
 	position:relative;
-	top:-15px;
+	top:-10px;
 	padding:5px 5px 10px 10px;
 	width:9em;
 	height:1.5em;
-	font-size:0.9em;
+	font-size:1.1em;
 	border-radius:5px;
 	margin-top: 1.2em;
     background-color: rgba(255, 255, 255, .15);
@@ -211,7 +211,7 @@ font-weight: lighter;
 	outline:0;
 	font-family: 'Balsamiq-sans';
 	font-weight: 900;
-	font-size:1.2em;
+	font-size:1.4em;
 	margin-top:5px;
 	color:white;
 	padding:5px;

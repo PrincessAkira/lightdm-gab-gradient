@@ -73,6 +73,7 @@ function authentication_complete()
 
 }
 
+/*
 function find_and_display_user_picture(idx, z)
 {
  	document.getElementById("login-picture").style.opacity = 0;
@@ -85,7 +86,7 @@ function find_and_display_user_picture(idx, z)
     	document.getElementById("login-picture").addEventListener("load", function(){document.getElementById("login-picture").style.opacity = 1;});
     }, 350);
     
-}
+} */
 
 function provide_secret()
 {

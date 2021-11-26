@@ -71,7 +71,7 @@ canvas {
 	border-radius:25px;
 	overflow:hidden;
 	padding: 1.2em;
-	background-color: red;
+	background-color: transparent;
 
 }
 
@@ -166,7 +166,7 @@ canvas {
 
 margin: 0;
 font-size: 1em;
-
+text-align: center;
 }
 
 #name

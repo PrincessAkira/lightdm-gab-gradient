@@ -79,7 +79,7 @@ canvas {
 {
 	border-radius:100%;
 	margin-top:40px;
-	height:16em;
+	height:14em;
 	-webkit-transition:opacity .5s ease-in-out;
 }
 
@@ -165,15 +165,17 @@ canvas {
 #sheesh {
 
 margin: 0;
-font-size: 46px;
+font-size: 28px;
 text-align: center;
+font-weight: lighter;
+
 }
 
 #name
 {
 	max-width:40em;
     font-family: "Balsamiq-sans";
-    font-size: 36px;
+    font-size: 32px;
     color: #FFFFFF;
 	padding: 0.2em;
     /* margin-bottom: 13px; */
@@ -196,7 +198,7 @@ text-align: center;
 	padding:5px 5px 10px 10px;
 	width:10.5em;
 	height:2em;
-	font-size:1.4em;
+	font-size:1.1em;
 	border-radius:5px;
 	margin-top: 1.2em;
     background-color: rgba(255, 255, 255, .25);
@@ -233,10 +235,11 @@ text-align: center;
 {
 	position:relative;
 	/* top:-15px; */
+	font-weight: lighter;
 	outline:0;
 	font-family: 'Balsamiq-sans';
 	font-weight: 900;
-	font-size:1.5em;
+	font-size:1.4em;
 	margin-top:5px;
 	color:white;
 	padding:5px;

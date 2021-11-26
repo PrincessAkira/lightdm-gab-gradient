@@ -12,6 +12,7 @@ text-align: center;
 
 #login-background
 {
+	filter: brightness(40%);
 	background-size:100%;
     background-repeat:no-repeat;
     background-color:black;

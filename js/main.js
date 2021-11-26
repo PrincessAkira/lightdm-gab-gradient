@@ -75,7 +75,7 @@ function authentication_complete()
 
 function find_and_display_user_picture(idx, z)
 {
- 	document.getElementById("login-picture").style.opacity = 0;
+ 	document.getElementById("login-picture").style.opacity = 1;
     
 } 
 

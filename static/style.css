@@ -53,14 +53,15 @@ height: 100%;
 #login-box
 {
 	text-align:center;
-	max-width: 65em;
+	max-width: 25em;
 	font-family: 'Balsamiq-sans';
 	max-height:70em;
 	margin:10em auto;
 	border-radius:25px;
 	overflow:hidden;
 	padding: 1.2em;
-	background-color: transparent;
+	background-color: rgba(255,255,255,.3);
+	backdrop-filter: blur(10px);
 
 }
 

@@ -53,23 +53,22 @@ height: 100%;
 #login-box
 {
 	text-align:center;
-	max-width: 25em;
+	max-width: 35em;
 	font-family: 'Balsamiq-sans';
 	max-height:70em;
 	margin:10em auto;
 	border-radius:25px;
 	overflow:hidden;
 	padding: 1.2em;
-	background-color: rgba(255,255,255,.3);
-	backdrop-filter: blur(10px);
+	background-color: transparent;
 
 }
 
 #login-picture
 {
 	border-radius:100%;
-	margin-top:40px;
-	height:16em;
+	margin-top:10px;
+	height:14em;
 	-webkit-transition:opacity .5s ease-in-out;
 }
 
@@ -172,10 +171,10 @@ font-weight: lighter;
 	padding:5px 5px 10px 10px;
 	width:9em;
 	height:1.5em;
-	font-size:1.1em;
+	font-size:0.9em;
 	border-radius:5px;
 	margin-top: 1.2em;
-    background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, .15);
 	text-align: center;
 	border: none !important;
 }
@@ -212,14 +211,14 @@ font-weight: lighter;
 	outline:0;
 	font-family: 'Balsamiq-sans';
 	font-weight: 900;
-	font-size:1.5em;
+	font-size:1.2em;
 	margin-top:5px;
 	color:white;
 	padding:5px;
 	border-radius:5px;
 	width: 6em;
 	height: 1.8em;
-    background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, .15);
 	border-color: transparent !important;
 	
 }

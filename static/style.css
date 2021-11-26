@@ -64,14 +64,14 @@ canvas {
 #login-box
 {
 	text-align:center;
-	max-width: 25em;
+	max-width: 65em;
 	font-family: 'Balsamiq-sans';
-	max-height:30em;
+	max-height:70em;
 	margin:15em auto;
 	border-radius:25px;
 	overflow:hidden;
 	padding: 1.2em;
-	background-color: transparent;
+	background-color: red;
 
 }
 
@@ -79,7 +79,7 @@ canvas {
 {
 	border-radius:100%;
 	margin-top:40px;
-	height:9em;
+	height:12em;
 	-webkit-transition:opacity .5s ease-in-out;
 }
 
@@ -110,7 +110,7 @@ canvas {
 #login-form
 {
 	margin:auto;
-	max-width:15em;
+	max-width:35em;
 
 }
 
@@ -162,27 +162,22 @@ canvas {
 	border-radius:5px;
 }
 
+#sheesh {
+
+margin: 0;
+font-size: 1em;
+
+}
 
 #name
 {
-	text-align: center;
-	max-width:auto;
+	max-width:40em;
     font-family: "Balsamiq-sans";
-    font-size: 1.6em;
+    font-size: 2.6em;
     color: #FFFFFF;
 	padding: 0.2em;
     /* margin-bottom: 13px; */
     -webkit-transition:margin .8s ease-in-out;
-}
-
-#name div
-{
-	display: table-cell;
-  	padding: 6px 5px 10px 5px;
-  	min-width: 225px;
-  	max-width: 225px;
-  	/* margin: 100px; */
-  	/* height: 100px; */
 }
 
 #next
@@ -199,12 +194,12 @@ canvas {
 	position:relative;
 	top:-15px;
 	padding:5px 5px 10px 10px;
-	width:15em;
+	width:10.5em;
 	height:2em;
-	font-size:15px;
+	font-size:1.6em;
 	border-radius:5px;
 	margin-top: 1.2em;
-    background-color: rgba(255, 255, 255, .15);
+    background-color: rgba(255, 255, 255, .25);
 	text-align: center;
 	border: none !important;
 }
@@ -241,14 +236,14 @@ canvas {
 	outline:0;
 	font-family: 'Balsamiq-sans';
 	font-weight: 900;
-	font-size:14px;
+	font-size:1.8em;
 	margin-top:5px;
 	color:white;
 	padding:5px;
 	border-radius:5px;
-	width:100%;
-	height:40px;
-    background-color: rgba(255, 255, 255, .15);
+	width: 10em;
+	height: 2em;
+    background-color: rgba(255, 255, 255, .25);
 	border-color: transparent !important;
 	
 }

@@ -17,21 +17,47 @@
             <img id="login-picture" src="icon.gif">
             <div id="login-response"></div>
             <br>
+            <br>
+            <br>
+            <br>
             <form id="login-form" action="javascript: provide_secret();">
                 <div id="container">
                  <div id="name">
                     <p id="sheesh">Welcome Home</p>
                     </div>
                 </div>
-                <input placeholder="Enter Password" type="password" id="login-password" tabindex="2">
                 <br>
+                <br>
+                <br>
+                <div id="input">
+                <input placeholder="Enter Password" type="password" id="login-password" tabindex="2">   
                 <button id="login-button" type="submit" tabindex="3">
-                    Login
+                    >
                 </button>
+            </div>
             </form>
         </div>
     </div>
-
+<div id="button-display">
+    <div class="buttons-main-screen-parent" id="buttons-main-screen-powers-parent">
+        <button class="button-main-screen" id="button-main-screen-powers">
+            <img src="shutdown.svg" draggable="false" class="button-main-screen-image" id="button-main-screen-powers-image">
+            <p class="tooltip">Shutdown</p>
+        </button>
+        <button class="button-main-screen" id="button-main-screen-powers">
+            <img src="restart.svg" draggable="false" class="button-main-screen-image" id="button-main-screen-powers-image">
+            <p class="tooltip">Restart</p>
+        </button>
+        <button class="button-main-screen" id="button-main-screen-powers">
+            <img src="hibernate.svg" draggable="false" class="button-main-screen-image" id="button-main-screen-powers-image">
+            <p class="tooltip">Hibernate</p>
+        </button>
+        <button class="button-main-screen" id="button-main-screen-powers">
+            <img src="suspend.svg" draggable="false" class="button-main-screen-image" id="button-main-screen-powers-image">
+            <p class="tooltip">Suspend</p>
+        </button>
+    </div>
+</div>
     <script src="js/mock.js"></script>
     <script src="js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

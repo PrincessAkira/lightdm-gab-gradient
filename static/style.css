@@ -87,6 +87,39 @@ height: 100%;
 
 }
 
+.button-main-screen-image {
+	width: 64px;
+	height: 64px;
+}
+
+
+.tooltip  {
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  text-align: center;
+  width: 75%;
+  position: relative;
+  margin: 0;
+  font-size: 17px;
+}
+
+
+#button-display {
+	display: inline-flex;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+.button-main-screen {
+	border: none;
+	padding: 10px;
+	background: transparent;
+	border-radius: 6px;
+	cursor: pointer;
+
+}
+
 #login-name
 {
 	-webkit-appearance: none;
@@ -164,16 +197,23 @@ font-weight: lighter;
 	text-align:left;
 }
 
+#input {
+
+	display: inline-flex;
+	height: auto;
+	justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
 #login-password
 {
-	position:relative;
-	top:-10px;
-	padding:5px 5px 10px 10px;
-	width:9em;
-	height:1.5em;
-	font-size:1.1em;
+	padding: 13px;
+	width:60%;
+	height:50%;
+	font-size:0.8em;
 	border-radius:5px;
-	margin-top: 1.2em;
     background-color: rgba(255, 255, 255, .15);
 	text-align: center;
 	border: none !important;
@@ -211,14 +251,13 @@ font-weight: lighter;
 	outline:0;
 	font-family: 'Balsamiq-sans';
 	font-weight: 900;
-	font-size:1.4em;
-	margin-top:5px;
+	font-size:1em;
 	color:white;
 	padding:5px;
-	border-radius:5px;
-	width: 6em;
-	height: 1.8em;
-    background-color: rgba(255, 255, 255, .15);
+	border-radius:10px;
+	width: 2.5em;
+	height:2.5em;
+    background-color: rgba(255, 255, 255, .10);
 	border-color: transparent !important;
 	
 }
@@ -226,8 +265,8 @@ font-weight: lighter;
 #login-button:hover
 {
 	cursor:pointer;
-	/* border:1px solid #7f7f7f; */
-	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	background-color: rgba(255, 255, 255, .20);
+
 }
 
 #login-button:active

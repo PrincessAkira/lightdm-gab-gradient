@@ -112,26 +112,22 @@ function init()
 
 $('#shutdown').click(function () {
     show_message("Shutting down...");
-    sleep(1000);
-    lightdm.shutdown();
+    sleep(1000).then(() => {     lightdm.shutdown(); });
 });
 // Hibernate Button
 $('#hibernate').click(function () {
     show_message("Hibernating...");
-    sleep(1000);
-    lightdm.hibernate();
+    sleep(1000).then(() => {     lightdm.hibernate(); });
 });
 // Suspend Button
 $('#suspend').click(function () {
     show_message("Suspending...");
-    sleep(1000);
-    lightdm.suspend();
+    sleep(1000).then(() => {     lightdm.suspend(); });
 });
 // Restart Button
 $('#restart').click(function () {
     show_message("Restarting..."); 
-    sleep(1000);
-    lightdm.restart();
+    sleep(1000).then(() => {     lightdm.restart(); });
 });
 
 init();

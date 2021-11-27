@@ -111,25 +111,25 @@ function init()
 }
 
 $('#shutdown').click(function () {
-    show_message("Shutdown", "Do you want the System to shutdown?");
+    show_message("Shutting down...");
     sleep(1000);
     lightdm.shutdown();
 });
 // Hibernate Button
 $('#hibernate').click(function () {
-    show_message("Hibernate", "Do you want the System to hibernate?");
+    show_message("Hibernating...");
     sleep(1000);
     lightdm.hibernate();
 });
 // Suspend Button
 $('#suspend').click(function () {
-    show_message("Suspend", "Do you want the System to suspend?");
+    show_message("Suspending...");
     sleep(1000);
     lightdm.suspend();
 });
 // Restart Button
 $('#restart').click(function () {
-    show_message("Restart", "Do you want the System to restart?"); 
+    show_message("Restarting..."); 
     sleep(1000);
     lightdm.restart();
 });

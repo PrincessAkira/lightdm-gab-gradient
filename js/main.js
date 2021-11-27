@@ -112,22 +112,30 @@ function init()
 
 $('#shutdown').click(function () {
     show_message("Shutting down...");
+    setTimeout(function () {
     lightdm.shutdown();
+    }, 1000);
 });
 // Hibernate Button
 $('#hibernate').click(function () {
     show_message("Hibernating...");
+    setTimeout(function () {
     lightdm.hibernate();
+    }, 1000);
 });
 // Suspend Button
 $('#suspend').click(function () {
     show_message("Suspending...");
+    setTimeout(function () {
     lightdm.suspend();
+    }, 1000);
 });
 // Restart Button
 $('#restart').click(function () {
     show_message("Restarting..."); 
+    setTimeout(function () {
     lightdm.restart();
+    }, 1000);
 });
 
 init();

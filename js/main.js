@@ -110,28 +110,24 @@ function init()
     });
 }
 
-if(!window.lightdm.can_shutdown) $('#shutdown').hide();
 $('#shutdown').click(function () {
     show_message("Shutdown", "Do you want the System to shutdown?", function () {
         lightdm.shutdown();
     });
 });
 // Hibernate Button
-if(!window.lightdm.can_hibernate) $('hibernate').hide();
 $('#hibernate').click(function () {
     show_message("Hibernate", "Do you want the System to hibernate?", function () {
         lightdm.hibernate();
     });
 });
 // Suspend Button
-if(!window.lightdm.can_suspend) $('#suspend').hide();
 $('#suspend').click(function () {
     show_message("Suspend", "Do you want the System to suspend?", function () {
         lightdm.suspend();
     });
 });
 // Restart Button
-if(!window.lightdm.can_restart) $('#restart').hide();
 $('#restart').click(function () {
     show_message("Restart", "Do you want the System to restart?", function () {
         lightdm.restart();

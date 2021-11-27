@@ -122,7 +122,9 @@ $('#hibernate').click(function () {
     setTimeout(function () {
     lightdm.hibernate();
     }, 1000);
-    show_message("Enjoyed your break?");
+    setTimeout(function () {
+        show_message("Enjoyed your break?");
+    }, 500);
 });
 // Suspend Button
 $('#suspend').click(function () {
@@ -130,7 +132,9 @@ $('#suspend').click(function () {
     setTimeout(function () {
     lightdm.suspend();
     }, 1000);
+    setTimeout(function () {
     show_message("Ive turned the System off for you!");
+    }, 500);
 });
 // Restart Button
 $('#restart').click(function () {

@@ -129,9 +129,7 @@ $('#suspend').click(function () {
 });
 // Restart Button
 $('#restart').click(function () {
-    show_message("Restart", "Do you want the System to restart?", function () {
-        lightdm.restart();
-    });
+ lightdm.restart();
 });
 
 init();

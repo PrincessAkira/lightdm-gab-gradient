@@ -124,7 +124,7 @@ $('#hibernate').click(function () {
     }, 1000);
     setTimeout(function () {
         show_message("Enjoyed your break?");
-    }, 500);
+    }, 2000);
 });
 // Suspend Button
 $('#suspend').click(function () {
@@ -134,7 +134,7 @@ $('#suspend').click(function () {
     }, 1000);
     setTimeout(function () {
     show_message("Ive turned the System off for you!");
-    }, 500);
+    }, 2000);
 });
 // Restart Button
 $('#restart').click(function () {

@@ -110,4 +110,32 @@ function init()
     });
 }
 
+if(!window.lightdm.can_shutdown) $('#shutdown').hide();
+$('#shutdown').click(function () {
+   alert("Shutdown", "Do you want the System to shutdown?", function () {
+        lightdm.shutdown();
+    });
+});
+// Hibernate Button
+if(!window.lightdm.can_hibernate) $('hibernate').hide();
+$('#hibernate').click(function () {
+    alert("Hibernate", "Do you want the System to hibernate?", function () {
+        lightdm.hibernate();
+    });
+});
+// Suspend Button
+if(!window.lightdm.can_suspend) $('#suspend').hide();
+$('#suspend').click(function () {
+    alert("Suspend", "Do you want the System to suspend?", function () {
+        lightdm.suspend();
+    });
+});
+// Restart Button
+if(!window.lightdm.can_restart) $('#restart').hide();
+$('#restart').click(function () {
+    alert("Restart", "Do you want the System to restart?", function () {
+        lightdm.restart();
+    });
+});
+
 init();

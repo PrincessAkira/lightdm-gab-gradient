@@ -111,13 +111,6 @@ opacity: 1;
   transition: opacity .2s ease-in-out;
 }
 
-
-#button-display {
-	display: inline-flex;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-}
-
 .button-main-screen {
 	border: none;
 	padding: 10px;
